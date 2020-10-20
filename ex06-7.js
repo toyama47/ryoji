@@ -1,7 +1,10 @@
-var who = 'world';
 function sayhello() {
+var who = 'world';
 alert('Hello, ' + who + '!');
 }
-function someone(x) {
-who = x;
+function taro() {
+who = '太郎';
+}
+function hanako() {
+who = '花子';
 }
