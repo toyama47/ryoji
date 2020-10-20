@@ -14,6 +14,3 @@ function saygoodbye() {
     alert('Goodbye');
 }
  
-function someone(x) {
- who = x;
-}
