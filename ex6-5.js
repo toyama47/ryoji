@@ -1,6 +1,9 @@
-var who = 'world';
 function sayhello() {
-alert('Hello, ' + who + '!');
+alert('Hello, ' + document.getElementById('who').innerHTML + '!');
 }
-function someone(x) {
-who = x;
+function taro() {
+document.getElementById('who').innerHTML = '太郎';
+}
+function hanako() {
+document.getElementById('who').innerHTML = '花子';
+}
