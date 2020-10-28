@@ -1,14 +1,13 @@
-var who65 = 'world';
 
-function sayhello65() {
- alert('Hello, ' + who65 + '!');
+var who65 = 'world';
+function sayhello65(){
+ alert('Hello,' + who65 + '!');
 }
-function taro65() {
- who65 = '太郎';
+
+var kita ='が来た';
+function taro65(){
+ alert('太郎' + kita);
 }
-function hanako65() {
-  who65 = '花子';
-}
-function gakita() {
-  alert();
+function hanako65(){
+ alert('花子' + kita);
 }
