@@ -1,4 +1,7 @@
-
+function hyoji1() { 
+//表示する文字
+var str = "一文字ずつ表示します。";
+//テキストボックスの文字数
 var cnt = document.timer1.moji1.value.length;
 //文字が全部表示されているか確認
 if ( cnt < 11 ) { 
